@@ -2,10 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Budget App</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Header-->
+    <header>
+      <h1>Balance</h1>
+      <span id="balance">70$</span>
+    </header>
+    <!--Section-->
+    <section>
+      <h3>Breakdown</h3>
+      <ul>
+        <li class="income">
+          <em>Description</em>
+          <span>+</span>
+          <strong>10$</strong>
+        </li>
+        <li class="expense">
+          <em>Description</em>
+          <span>-</span>
+          <strong>10$</strong>
+        </li>
+      </ul>
+    </section>
+    <!--Footer-->
+    <footer>
+      <input type="number" placeholder="0$" />
+      <select name="" id="">
+        <option value="income">+ Income</option>
+        <option value="expense">- Expense</option>
+      </select>
+      <button>Add</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
